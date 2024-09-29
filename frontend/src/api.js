@@ -5,7 +5,7 @@ import { ACCESS_TOKEN } from "./constants";
 console.log(import.meta.env);
 
 const api = axios.create({
-    baseURL: import.meta.env.VITE_API_URl ,
+    baseURL: import.meta.env.VITE_API_URL ,
 });
 
 api.interceptors.request.use(
